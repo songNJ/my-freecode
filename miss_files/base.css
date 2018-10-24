@@ -1,0 +1,244 @@
+* {
+    padding:0;
+    margin:0;
+    border:0px
+}
+body {
+    color:#555;
+    BACKGROUND:url(http://hw1990.qiniudn.com/body2.jpg) #f2ecde fixed no-repeat 50% top;
+    behavior:url("../images/csshover3.htc");
+    font-family:"宋体","微软雅黑","arial";
+    font-size:12px
+}
+a {
+    cursor:pointer
+}
+a:link,a:visited {
+    color:#555;
+    text-decoration:none
+}
+a:hover {
+    text-decoration:underline;
+    color:#FF0000
+}
+a:active {
+    color:#d7292b;
+    text-decoration:underline
+}
+ul {
+    list-style-type:none
+}
+h1,h2,h3,h4,h5 {
+    color:#36393d
+}
+h1 {
+    font-size:26px;
+    line-height:30px;
+    height:30px
+}
+h2 {
+    font-size:22px;
+    line-height:26px;
+    height:26px
+}
+h3 {
+    font-size:18px;
+    line-height:24px;
+    height:24px
+}
+h4 {
+    font-size:14px;
+    line-height:20px;
+    height:20px
+}
+h5 {
+    font-size:12px;
+    line-height:16px;
+    height:16px
+}
+.wrap {
+    margin:0 auto;
+    width:1000px;
+    overflow: hidden;
+}
+span.sep {
+    margin:0 5px;
+    color:#cacaca
+}
+.fl {
+    float:left
+}
+.fr {
+    float:right
+}
+.cl {
+    clear:both;
+    height:0px;
+    _line-height:0px;
+    _overflow:hidden
+}
+.block1 {
+    margin-top:13px
+}
+.bd {
+    border:1px solid #e1e1e1
+}
+.block-head {
+    border-bottom:2px solid #28A9FF;
+    height:30px
+}
+.block-head h3 {
+    background-color:#28A9FF;
+    float:left;
+    height:30px;
+    line-height:33px;
+    color:#fff;
+    border-radius:5px 5px 0 0;
+    background:#28A9FF url(../images/tbg.png) top no-repeat;
+    width:116px;
+    text-align:center
+}
+.block-head h3 a,.block-head h3 a:visited {
+    color:#fff
+}
+.block-head .h5 {
+    float:left;
+    line-height:30px;
+    margin-left:20px
+}
+.block-head .h5 a,.block-head .h5 a:VISITED {
+    color:#28A9FF;
+    padding:3px 5px
+}
+.block-head .h5 a:hover,.block-head .h5 a.sed,.block-head .h5 a:VISITED.sed {
+    background-color:#F8652F;
+    color:#fff;
+    text-decoration:none
+}
+.block-head .switch {
+    float:right;
+    height:27px;
+    line-height:28px;
+    padding:0 10px;
+    padding-left:30px;
+    color:#999
+}
+.block-imgs {
+    margin-top:20px
+}
+.block-imgs li {
+    float:left;
+    margin-left:17px;
+    margin-bottom:20px;
+    *width:140px;
+    _margin-left:13px;
+    *margin-bottom:0
+}
+.block-imgs .cover {
+    background-color:#EFEEEF;
+    padding:4px;
+    border:1px solid #EFEEEF
+}
+.block-imgs .cover img {
+    display:block
+}
+.block-imgs .lock-imgs_1 {
+    background-color:#F6F6F6;
+    text-align:center;
+    margin-top:10px;
+    font-weight:normal;
+    height:25px;
+    width:140px;
+    overflow:hidden;
+    line-height:25px;
+    overflow:hidden
+}
+.block-imgs2 .lock-imgs_1 {
+    background-color:#F6F6F6;
+    text-align:center;
+    margin-top:10px;
+    font-weight:normal;
+    height:25px;
+    width:170px;
+    overflow:hidden;
+    line-height:25px;
+    overflow:hidden
+}
+.block-imgs2 li {
+    width:170px;
+    height:170px
+}
+
+.content {
+    background-color:#FFF;
+    padding:0px 0px
+}
+marquee[Attributes Style] {
+    -internal-marquee-increment:4px;
+    width:760px
+}
+Style Attribute {
+    color:#008000
+}
+#bottom_link {
+    background:#f5f5f5;
+    border:1px #BADAA1 solid;
+    padding:10px
+}
+
+#plane .plane-hd,#plane .plane-bd {
+    position:relative
+}
+#plane {
+    z-index:300;
+    position:fixed;
+    bottom:30%;
+    left:50%;
+    margin-left:504px;
+    width:66px;
+    font:12px/1.5 arial,b8bf53,georgia,verdana,helvetica,sans-serif
+}
+#plane .plane-hd {
+    overflow:hidden;
+    width:115px
+}
+#plane .plane-hd {
+    z-index:1
+}
+#plane a {
+    position:relative;
+    color:#666
+}
+#plane .plane-bd {
+    z-index:2
+}
+#plane .plane-bd li {
+    position:relative;
+    width:66px;
+    height:39px;
+    background:url(http://p1.qhimg.com/t01c7482186d291c85e.png) repeat-y
+}
+#plane .plane-bd a,#plane .plane-ft a {
+    display:block;
+    width:64px;
+    height:32px;
+    line-height:32px;
+    border:1px solid #e3e3e3;
+    background-color:#fff
+}
+#plane .plane-ft a {
+    text-align:center
+}
+#plane .plane-bd a:hover,#plane .plane-ft a:hover {
+    background-color:#f7f7f7
+}
+#plane .plane-bd li ins {
+    position:absolute;
+    top:0;
+    left:0;
+    width:30px;
+    height:28px
+}
+#plane .plane-bd li span {
+    margin-left:30px
+}

@@ -1,0 +1,167 @@
+.top-info {
+	float:left;
+	width:668px;
+	height:290px;
+}
+.top-info-left {
+	float:left;
+	margin-top:25px;
+	margin-left:30px;
+	width:270px;
+	_margin-left:15px;
+}
+.top-info-left ul {
+	margin-top:5px;
+}
+.top-info-left li {
+	font-size:14px;
+	line-height:30px;
+	border-bottom:1px dashed #ddd;
+	overflow:hidden;
+	height:30px;
+}
+.top-info-right {
+	float:right;
+	width:360px;
+}
+.top-info-right .slide {
+	height:180px;
+}
+.top-info-right .links {
+	margin-top:5px;
+	line-height:30px;
+}
+.top-info-right .links a {
+	margin-right:10px;
+}
+.top-info-right .share {
+	margin-top:0;
+}
+.top-rank {
+	float:right;
+	width:275px;height: 290px;
+overflow: hidden;
+}
+.top-rank .title {
+	border-bottom:1px solid #ddd;
+	height:29px;
+}
+.top-rank .title a {
+	display:block;
+	float:left;
+	height:30px;
+	line-height:30px;
+	font-size:14px;
+	font-weight:bold;
+	padding:0 20px;
+}
+.top-rank .title a.sed {
+	background-color:#F8652F;
+	color:#fff;
+}
+.top-rank li {
+	line-height:30px;
+	height:30px;
+	width:255px;
+	overflow:hidden;
+	margin-left:20px;
+}
+.top-rank li span {
+	display:block;
+	float:left;
+	margin-right:10px;
+	background-color:#B8B8B8;
+	height:12px;
+	line-height:12px;
+	margin-top:9px;
+	width:12px;
+	text-align:center;
+	color:#fff;
+}
+.top-rank li span.top {
+	background-color:#F8652F;
+}
+.top-rank li a {
+	display:block;
+	float:left;
+	width:220px;
+	overflow:hidden;
+}
+.fl1 {
+	float:left;
+	width:209px;
+	margin:10px;
+	_margin-left:11px;
+	_background:#ffffff;
+}
+.fl1 h4, .fl1 h4 a, .fl1 h4 a:visited {
+	color:#36393D;
+}
+.fl1 .submenu {
+	border-bottom:1px solid #ddd;
+	height:40px;
+	line-height:40px;
+}
+.fl1 .submenu a {
+	padding:3px 5px;
+}
+.fl1 .submenu a.sed {
+	background:#F8652F;
+	color:#fff;
+}
+.fl1 ul {
+	margin-top:10px;
+	margin-left:10px;
+}
+.fl1 li {
+	padding-left:10px;
+	line-height:25px;
+	height:25px;
+	overflow:hidden;
+}
+.fr2 {
+	float:right;
+	width:265px;
+}
+.fl2 h4, .fl2 .submenu {
+	margin:0 15px;
+}
+.fl2 ul {
+	margin-left:25px;
+}
+.flink {
+	padding:5px 15px;
+}
+.flink p {
+	margin-top:10px;
+	line-height:25px;
+}
+.flink p a {
+	margin-right:10px;
+	white-space:nowrap;
+}
+.list-img {
+	float:right;
+	margin-left:10px;
+}
+.list-article {
+	padding:12px 0;
+	line-height:25px;
+	text-align:justify;
+	font-size:14px;
+	color:#333;
+	text-indent:3em;
+}
+.fenlan {
+	height: 38px;
+	overflow: hidden;
+	clear: both;
+	/*background: url(http://hw1990.qiniudn.com/fenlan.gif) left 15px repeat-x;*/
+	margin: 4px auto;
+	padding-top: 14px;
+	color: #FFFFFF;
+	padding-left: 30px;
+	width: 600px;
+	font-family: tahoma, geneva, sans-serif;
+	font-size:14px;
+}

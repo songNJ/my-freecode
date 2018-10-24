@@ -1,0 +1,40 @@
+﻿body
+{
+	background-image:none!important;
+}
+
+#logo-left-image/*需要在服务器端代码禁止首页显示此元素即可*/
+{
+}
+#top-middle-image
+{
+    margin-left:200px;
+}
+#meihua-b
+{
+	background-image:url("../images/meihua-b.png");
+	background-repeat:no-repeat;
+	height:80px;
+    width:100px;
+	clear:both;
+    margin-left:242px;
+    position:relative;
+}
+.meihua-b-2
+{
+	background-image:url("../images/meihua-b.png");
+	background-repeat:no-repeat;
+    background-position:52px -2px;
+}
+
+#top-content
+{
+    background-image:url("../images/meihua-t.png")!important;
+    background-position:205px 33px!important;
+    background-repeat:no-repeat!important;
+}
+.pullDownTitle {
+    height:35px!important;
+    background-color:#f00;
+    line-height: 35px;
+}
